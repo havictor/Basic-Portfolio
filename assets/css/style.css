@@ -26,6 +26,7 @@ h1 {
     }
 
 body {
+    background-image: "assets/images/background.png";
     background-color: #666666;
     }
 
@@ -39,9 +40,10 @@ a:active {
 
 section {
     margin: auto;
-    position: absolute;
     max-width: 960px;
     background-color: #ffffff;
+    border-color: #dddddd;
+    padding: 4px;
     }
 
 footer {
