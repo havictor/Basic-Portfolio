@@ -4,6 +4,7 @@ header {
     border-width: thick;
     border-color: #ffffff #ffffff #cccccc #ffffff;
     font-size: 36px;
+    z-index: 1;
     }
 
 h2  {
