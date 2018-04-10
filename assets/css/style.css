@@ -38,12 +38,10 @@ a:active {
     }
 
 section {
+    margin: auto;
     position: absolute;
     max-width: 960px;
-    align-content: center;
     background-color: #ffffff;
-    margin: 58px 10px;
-    width: center;
     }
 
 footer {
