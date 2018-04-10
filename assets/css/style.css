@@ -1,19 +1,18 @@
-header 
-    {background-color: #ffffff;
+header {
+    background-color: #ffffff;
     color:#4aaaa5;
     border-width: thick;
     border-color: #ffffff #ffffff #cccccc #ffffff;
     font-size: 36px;
     }
 
-/*main
-    {background-color: #ffffff;
+h2  {
+    background-color: #ffffff;
     color:#4aaaa5;
     border-width: thick;
     border-color: #ffffff #ffffff #cccccc #ffffff;
     font-size: 36px;
     }
-    */
 
 h1 {
     background-color: #4aaaa5;
@@ -24,21 +23,28 @@ h1 {
 
 .top {
     position: fixed;
-}
+    }
 
 body {
     background-color: #666666;
-}
+    }
 
-a {color: #666666;}
-a:active{color: #666666;}
+a {
+    color: #666666;
+    }
+
+a:active {
+    color: #666666;
+    }
 
 section {
+    position: absolute;
     max-width: 960px;
     align-content: center;
     background-color: #ffffff;
     margin: 58px 10px;
-}
+    width: center;
+    }
 
 footer {
     background-color: #666666;
@@ -46,7 +52,7 @@ footer {
     position: fixed;
     bottom: 1px;
     clear: both;
-}
+    }
 
 
 #navigation {
@@ -54,7 +60,7 @@ footer {
     font-size: 30px;
     right: 10px;
     z-index: 2;
-}
+    }
 
 #About {
     position: absolute;
@@ -64,12 +70,12 @@ footer {
 #Portfolio {
     position: absolute;
     top: 1100px;
-}
+    }
 
 #Contact {
     position: absolute;
     top: 2100px;
-}
+    }
 
 #img1
 #img2
@@ -83,6 +89,11 @@ footer {
 #p4
 #p5
 
-.PortfolioImage
+.PortfolioImage {
+    width: 300px;
+    height: 300px;
+    }
 
-.PortfolioText
+.PortfolioText {
+    position: absolute;
+    }
