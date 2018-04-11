@@ -7,9 +7,8 @@
   </head>
   
   <body>
-<!--    <header>
--->
-      <div id="header" class="center top">
+ <header>
+      <div id="header">
         <div id="FloatRightDiv">
     <nav id="navigation" class="top">
       <a href="#About">About</a> | 
@@ -19,8 +18,8 @@
         </div>
     <h1 class="top">Victor Ha</h1>
   </div>
-<!--  </header>
--->
+</header>
+
 
 
 
@@ -28,7 +27,8 @@
 <!--      <section id="About">
 -->
         <h2>About Me</h2>
-        <img src=# id="Selfie">
+        <br>
+        <img src="assets/images/selfie.jpg" id="Selfie" height="200" width="150">
   <!-- To be filled about me
   -->
 <!--      </section>
@@ -40,16 +40,27 @@
 <!--    <section id="Portfolio">
 -->
       <h2>Portfolio</h2>
-        <img id="img1" class="PortfolioImage">
-        <p id="p1" class="PortfolioText"></p>
-        <img id="img2" class="PortfolioImage">
-        <p id="p2" class="PortfolioText"></p>
-        <img id="img3" class="PortfolioImage">
-        <p id="p3" class="PortfolioText"></p>
-        <img id="img4" class="PortfolioImage">
-        <p id="p4" class="PortfolioText"></p>
-        <img id="img5" class="PortfolioImage">
-        <p id="p5" class="PortfolioText"></p>
+      <br>
+        <a href="Hangman.html">
+          <img  src="./assets/images/1.jpg" width="300" height="225" id="img1"class="PortfolioImage">
+            <p id="p1" class="PortfolioText">Hangman</p>
+        </a>
+        <a href="RPGGame.html">
+          <img  src="./assets/images/2.jpg" width="300" height="225" id="img2" class="PortfolioImage">
+            <p id="p2" class="PortfolioText">RPG Game</p>
+        </a>
+        <a href="Trivia.html">
+          <img  src="./assets/images/3.jpg" width="300" height="225" id="img3" class="PortfolioImage">
+            <p id="p3" class="PortfolioText">Trivia Game</p>
+        </a>
+        <a href="Widget.html">
+          <img  src="./assets/images/4.jpg" width="300" height="225" id="img4" class="PortfolioImage">
+            <p id="p4" class="PortfolioText">Rutgers Info Widget</p>
+        </a>
+        <a href="RPS.html">
+          <img  src="./assets/images/5.jpg" width="300" height="225" id="img5" class="PortfolioImage">
+            <p id="p5" class="PortfolioText">Rock Paper Scissors</p>
+        </a>
 <!--    </section>
 -->
                   </div>
@@ -58,16 +69,17 @@
 <!--    <section id="Contact">
 -->
       <h2>Contact</h2>
+      <br>
       <form>
         <fieldset>
           <p>Name</p>
           <input type="text">
           <br>
           <p>Email</p>
-          <input type="text">
+          <input type="email">
           <br>
           <p>Message</p>
-          <input type="text">
+          <input type="text" id="Message">
           <br>
         </fieldset>
       </form>
